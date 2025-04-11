@@ -2,7 +2,7 @@
 import { Campaign, LinkedInProfile, PersonalizedMessage } from "@/types";
 
 // Replace with your actual API URL when deploying
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:3001";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://campaign-management-pi.vercel.app/";
 
 // Mock data for campaigns when API is unavailable
 const MOCK_CAMPAIGNS: Campaign[] = [
